@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TextEditor</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="content">
+        <h2>Output</h2>
+        <div class="textContent">
+          <p id="text"></p>
+        </div>
+      </section>
+
+      <section class="sidebar">
+        <h2>Text Editor</h2>
+
+        <h3>Text Box</h3>
+        <textarea id="textInput" placeholder="Input text here!"></textarea>
+        <button id="save">Save</button>
+
+        <h3>Edit Text</h3>
+        <input
+          id="changeWord"
+          type="text"
+          placeholder="Word you want to replace"
+        />
+        <input id="newWord" type="text" placeholder="New word" />
+
+        <div class="buttons">
+          <button id="edit">Edit</button>
+          <button id="clear">Clear All</button>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
